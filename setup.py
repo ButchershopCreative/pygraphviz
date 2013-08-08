@@ -28,8 +28,8 @@ if sys.version_info[:2] < (2, 4):
           sys.version_info[:2]
     sys.exit(-1)
 
-library_path=/usr/local/lib
-include_path=/usr/local/include
+library_path="/usr/local/lib"
+include_path="/usr/local/include"
 
 # If the setup script couldn't find your graphviz installation you can
 # specify it here by uncommenting these lines or providing your own:
